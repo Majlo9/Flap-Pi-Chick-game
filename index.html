@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Chicken Game</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      background-color: #87CEEB; /* Světle modré pozadí (nebe) */
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  
+  <!-- Obrázky pro ptáky, stromy a domy -->
+  <img src="bird.png" id="bird" style="display:none">
+  <img src="tree.png" id="tree" style="display:none">
+  <img src="house.png" id="house" style="display:none">
+
+  <script src="game.js"></script>
+</body>
+</html>
